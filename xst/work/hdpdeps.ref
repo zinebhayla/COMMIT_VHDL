@@ -1,0 +1,32 @@
+V3 19
+FL $XILINX/FSMD/gcd2.vhd 2020/09/05.12:54:49 J.36
+EN work/mux 1599568510 FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1177545575 \
+      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/mux/mux_arc 1599568511 \
+      FL $XILINX/FSMD/gcd2.vhd EN work/mux 1599568510
+EN work/comparator 1599568512 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1177545575 \
+      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/comparator/comparator_arc 1599568513 \
+      FL $XILINX/FSMD/gcd2.vhd EN work/comparator 1599568512
+EN work/subtractor 1599568514 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1177545575 \
+      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/subtractor/subtractor_arc 1599568515 \
+      FL $XILINX/FSMD/gcd2.vhd EN work/subtractor 1599568514
+EN work/regis 1599568516 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1177545575 \
+      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/regis/regis_arc 1599568517 \
+      FL $XILINX/FSMD/gcd2.vhd EN work/regis 1599568516
+EN work/fsm 1599568518 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1177545575 \
+      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/fsm/fsm_arc 1599568519 \
+      FL $XILINX/FSMD/gcd2.vhd EN work/fsm 1599568518
+EN work/gcd 1599568520 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1177545575 \
+      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583 \
+      LB work
+AR work/gcd/gcd_arc 1599568521 FL $XILINX/FSMD/gcd2.vhd EN work/gcd 1599568520 \
+      CP fsm CP mux CP regis CP comparator CP subtractor

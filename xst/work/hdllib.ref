@@ -1,0 +1,12 @@
+AR comparator comparator_arc C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl03 1599568513
+EN regis NULL C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl06 1599568516
+EN subtractor NULL C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl04 1599568514
+AR regis regis_arc C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl07 1599568517
+EN gcd NULL C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl10 1599568520
+AR mux mux_arc C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl01 1599568511
+EN fsm NULL C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl08 1599568518
+EN mux NULL C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl00 1599568510
+AR subtractor subtractor_arc C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl05 1599568515
+AR fsm fsm_arc C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl09 1599568519
+EN comparator NULL C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl02 1599568512
+AR gcd gcd_arc C:/Xilinx92i/FSMD/gcd2.vhd sub00/vhpl11 1599568521

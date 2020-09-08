@@ -1,0 +1,31 @@
+V3 19
+EN isim_temp/mux 0 FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1179176983 \
+      PB ieee/std_logic_arith 1179176985 PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/mux/mux_arc 0 \
+      FL $XILINX/FSMD/gcd2.vhd EN isim_temp/mux 0
+EN isim_temp/comparator 0 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1179176983 \
+      PB ieee/std_logic_arith 1179176985 PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/comparator/comparator_arc 0 \
+      FL $XILINX/FSMD/gcd2.vhd EN isim_temp/comparator 0
+EN isim_temp/subtractor 0 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1179176983 \
+      PB ieee/std_logic_arith 1179176985 PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/subtractor/subtractor_arc 0 \
+      FL $XILINX/FSMD/gcd2.vhd EN isim_temp/subtractor 0
+EN isim_temp/regis 0 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1179176983 \
+      PB ieee/std_logic_arith 1179176985 PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/regis/regis_arc 0 \
+      FL $XILINX/FSMD/gcd2.vhd EN isim_temp/regis 0
+EN isim_temp/fsm 0 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1179176983 \
+      PB ieee/std_logic_arith 1179176985 PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/fsm/fsm_arc 0 \
+      FL $XILINX/FSMD/gcd2.vhd EN isim_temp/fsm 0
+EN isim_temp/gcd 0 \
+      FL $XILINX/FSMD/gcd2.vhd PB ieee/std_logic_1164 1179176983 \
+      PB ieee/std_logic_arith 1179176985 PB ieee/STD_LOGIC_UNSIGNED 1179176991 \
+      LB isim_temp
+AR isim_temp/gcd/gcd_arc 0 FL $XILINX/FSMD/gcd2.vhd \
+      EN isim_temp/gcd 0 CP fsm CP mux CP regis CP comparator CP subtractor

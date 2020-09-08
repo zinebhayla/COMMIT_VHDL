@@ -1,0 +1,34 @@
+ command line:
+   ./gcdtest_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  57539
+
+Tue Sep 08 13:35:24 2020
+
+Total Line Count : 281
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 158.069 Meg. 
+
+ Total Signals          : 71
+ Total Nets             : 52
+ Total Signal Drivers   : 19
+ Total Blocks           : 15
+ Total Primitive Blocks : 8
+ Total Processes        : 12
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 52
+ntrace select -o on -n /gcdtest/rst 
+ntrace select -o on -n /gcdtest/clk 
+ntrace select -o on -n /gcdtest/go_i 
+ntrace select -o on -n /gcdtest/x_i 
+ntrace select -o on -n /gcdtest/y_i 
+ntrace select -o on -n /gcdtest/d_o 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
